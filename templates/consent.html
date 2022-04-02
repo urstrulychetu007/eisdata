@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EIS DATA COLLECTION</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        body
+        {
+            font-family: 'Poppins',sans-serif;
+        }
+        a
+        {
+            border: 1px solid dodgerblue;
+            text-decoration: none;
+            background-color: dodgerblue;
+            color: white;
+            padding: 5px;
+            /* width: 200px;
+             */
+             padding-left: 17px;
+             padding-right: 17px;
+        }
+        .dec
+        {
+            border: 1px solid dodgerblue;
+            text-decoration: none;
+            background-color: white;
+            color: black;
+            padding: 5px;
+            /* width: 200px;
+             */
+             padding-left: 17px;
+             padding-right: 17px;
+        }
+    </style>
+</head>
+<body style="align-items: center; justify-content: center;margin-left :35%;margin-top: 5%;">
+    <div class="consent">
+        <h1>Consent Form</h1>
+        <p>
+            I understand that Data collection app is collecting database of images of human face <br>
+            we intends to use the personal data for research and development purpose of features <br>
+            related to EIS course project.
+        </p>
+        <p>
+            I hereby declare that: <br>
+            i)   I have understood the purpose of program. <br>
+            ii)  I have voluntarily agreed to share my personal data. <br>
+            iii) The personal information provided by me maybe  achieved and used for further <br>
+                 research and development purpose by eis team. <br>
+            <h1>Personal Data</h1>  <br>
+                 a) Human Faces.
+        </p>
+        <p>
+            I hereby agree to keep my participation in the program strictly confidential and shall not disclose the details of <br>
+            the purpose program to any third party.
+        </p>
+        <br>
+        <a href="{{url_for('start')}}">Accept</a>
+        <a href="{{url_for('consent')}}" class="dec">Decline</a>
+
+    </div>
+</body>
+</html>
