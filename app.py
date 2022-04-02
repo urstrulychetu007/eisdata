@@ -1,4 +1,3 @@
-from crypt import methods
 import cv2
 import os
 from flask import *
